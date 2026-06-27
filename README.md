@@ -63,9 +63,9 @@ looking_for: Internship / Junior position in Cybersecurity
 
 <div align="center">
 
-<a href="https://tryhackme.com/p/VitorTosti">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/VitorTosti.png" alt="TryHackMe Badge" />
-</a>
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-VitorTosti-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
+
+🎯 **Active learner** — Practicing offensive & defensive security daily
 
 </div>
 
