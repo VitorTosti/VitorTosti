@@ -1,39 +1,39 @@
 <div align="center">
 
-![Header banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:203A43&height=200&section=header&text=Vitor%20Tosti&fontSize=50&fontColor=ffffff&desc=Cybersecurity%20Student%20%7C%20Blue%20%26%20Red%20Team%20%7C%20Python&descSize=18&descAlignY=58)
+![Header banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:203A43&height=200&section=header&text=Vitor%20Tosti&fontSize=50&fontColor=ffffff&desc=Estudante%20de%20Ciberseguran%C3%A7a%20%7C%20Blue%20%26%20Red%20Team%20%7C%20Python&descSize=18&descAlignY=58)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
 
-![Profile Views](https://komarev.com/ghpvc/?username=VitorTosti&color=0F2027&style=flat-square&label=Profile+Views)
+![Visualizações do perfil](https://komarev.com/ghpvc/?username=VitorTosti&color=0F2027&style=flat-square&label=Visualiza%C3%A7%C3%B5es)
 
 ---
 
 </div>
 
-## 🧑‍💻 About Me
+## 🧑‍💻 Sobre mim
 
 ```yaml
-name: Vitor Tosti
-location: São Paulo, Brasil
-university: UFABC
-focus: Cybersecurity — Blue Team & Red Team
-currently_learning:
-  - Offensive Security
-  - Network Analysis
-  - Incident Response
-looking_for: Internship / Junior position in Cybersecurity
+nome: Vitor Tosti
+localização: São Paulo, Brasil
+universidade: UFABC
+foco: Cibersegurança — Blue Team & Red Team
+estudando_atualmente:
+  - Segurança Ofensiva
+  - Análise de Redes
+  - Resposta a Incidentes
+buscando: Estágio / Vaga júnior em Cibersegurança
 ```
 
-- 🔭 Studying **Cybersecurity** at **UFABC**
-- 🎯 Focused on **Blue Team** (SOC, SIEM, Log Analysis) and **Red Team** (Pentest, Vulnerability Assessment)
-- 🏆 Active on **TryHackMe** — practicing daily
-- 🐍 Building security tools with **Python**
-- 🔍 Seeking an **internship or junior role** in Cybersecurity
+- 🔭 Estudando **Cibersegurança** na **UFABC**
+- 🎯 Foco em **Blue Team** (SOC, SIEM, Análise de Logs) e **Red Team** (Pentest, Análise de Vulnerabilidades)
+- 🏆 Ativo no **TryHackMe** — praticando diariamente
+- 🐍 Construindo ferramentas de segurança com **Python**
+- 🔍 Buscando **estágio ou vaga júnior** em Cibersegurança
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack de Tecnologias
 
 <div align="center">
 
@@ -58,18 +58,18 @@ looking_for: Internship / Junior position in Cybersecurity
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-VitorTosti-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
 
-🎯 **Active learner** — Practicing offensive & defensive security daily
+🎯 **Aprendiz ativo** — Praticando segurança ofensiva e defensiva todos os dias
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Estatísticas do GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorTosti&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" alt="GitHub Stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorTosti&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens mais usadas" height="165" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
@@ -77,32 +77,32 @@ looking_for: Internship / Junior position in Cybersecurity
 
 ---
 
-## 🔒 Featured Projects
+## 🔒 Projetos em Destaque
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🔍 **Port Scanner** | Network port scanner with service detection | Python |
-| 📊 **Log Analyzer** | Security log parser and alert generator | Python |
-| 🔐 **Password Auditor** | Password strength checker and hash cracker | Python |
-| 📝 **CTF Writeups** | TryHackMe & CTF challenge writeups | Markdown |
+| Projeto | Descrição | Tecnologia |
+|---------|-----------|------------|
+| 🔍 **Port Scanner** | Scanner de portas de rede com detecção de serviços | Python |
+| 📊 **Log Analyzer** | Analisador de logs de segurança e gerador de alertas | Python |
+| 🔐 **Password Auditor** | Verificador de força de senhas e quebrador de hash | Python |
+| 📝 **CTF Writeups** | Resoluções de desafios do TryHackMe e CTFs | Markdown |
 
-> *Projects coming soon — currently building my cybersecurity toolkit!*
+> *Projetos em construção — montando meu kit de ferramentas de cibersegurança!*
 
 ---
 
 <div align="center">
 
-### 📫 Let's Connect
+### 📫 Vamos nos conectar
 
-**Open to internship and junior cybersecurity opportunities!**
+**Aberto a oportunidades de estágio e vaga júnior em cibersegurança!**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
 
 ---
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Citação aleatória" />
 
-*"The quieter you become, the more you are able to hear."* — Kali Linux
+*"Quanto mais quieto você fica, mais você é capaz de ouvir."* — Kali Linux
 
 </div>
