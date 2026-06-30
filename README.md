@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:203A43&height=200&section=header&text=Vitor%20Tosti&fontSize=50&fontColor=ffffff&desc=Estudante%20de%20Ciberseguran%C3%A7a%20%7C%20Blue%20%26%20Red%20Team%20%7C%20Python&descSize=18&descAlignY=58)
+![Header banner](https://raw.githubusercontent.com/VitorTosti/VitorTosti/main/banner.svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
@@ -68,8 +68,8 @@ buscando: Estágio / Vaga júnior em Cibersegurança
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorTosti&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens mais usadas" height="165" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" alt="GitHub Stats" height="165" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=VitorTosti&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens mais usadas" height="165" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
