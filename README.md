@@ -68,8 +68,7 @@ buscando: Estágio / Vaga júnior em Cibersegurança
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=VitorTosti&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens mais usadas" height="165" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
