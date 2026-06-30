@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:203A43&height=200&section=header&text=Vitor%20Tosti&fontSize=50&fontColor=ffffff&desc=Cybersecurity%20Student%20%7C%20Blue%20%26%20Red%20Team%20%7C%20Python&descSize=18&descAlignY=58&animation=fadeIn" alt="Header banner" width="100%"/>
+![Header banner](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:203A43&height=200&section=header&text=Vitor%20Tosti&fontSize=50&fontColor=ffffff&desc=Cybersecurity%20Student%20%7C%20Blue%20%26%20Red%20Team%20%7C%20Python&descSize=18&descAlignY=58)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
