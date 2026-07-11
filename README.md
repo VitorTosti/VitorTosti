@@ -17,7 +17,7 @@
 
 ---
 
-## 🧑‍💻 Sobre mim
+### Sobre mim
 
 ```yaml
 nome: Vitor Tosti
@@ -31,15 +31,11 @@ trabalhando_com:
 buscando: Estágio / Vaga júnior em Tecnologia
 ```
 
-- 🔭 Estudante de **Ciência da Computação** na **UFABC**
-- 💻 Construindo **aplicações full stack**, **automações** e **ferramentas de segurança**
-- 🏆 Praticando labs de redes e segurança no **TryHackMe**
-- ⚡ Experiência profissional em **desenvolvimento de sistemas**, **automação industrial** e **diagnóstico técnico**
-- 🔍 Buscando **estágio ou vaga júnior** em Tecnologia
+Estudante de Ciência da Computação na UFABC, construindo aplicações full stack, automações e ferramentas de segurança. Experiência profissional em desenvolvimento de sistemas, automação industrial e diagnóstico técnico. Praticando labs de redes e segurança no TryHackMe.
 
 ---
 
-## 🛠️ Stack
+### Stack
 
 **Linguagens**
 
@@ -70,31 +66,22 @@ buscando: Estágio / Vaga júnior em Tecnologia
 
 ---
 
-## 🚀 Projetos em Destaque
+### Projetos em Destaque
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| 💰 **[fnc](https://github.com/VitorTosti/fnc)** | App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios, PWA | Next.js, TypeScript, Supabase, Playwright |
-| 🎓 **[CoreUFABC](https://github.com/VitorTosti/CoreUFABC)** | Plataforma de planejamento acadêmico — importação de histórico, métricas, simulação de matrícula | React, Vite, Tailwind, Supabase |
-| 🔧 **[CAIJ_Info](https://github.com/VitorTosti/CAIJ_Info)** | Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas, integração com servidor | PowerShell, Windows Forms |
-| 🔍 **[HeaderScanner](https://github.com/VitorTosti/HeaderScanner)** | CLI para análise de headers de segurança HTTP e classificação de postura de domínios | Go |
+| [**fnc**](https://github.com/VitorTosti/fnc) | App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios, PWA | Next.js, TypeScript, Supabase, Playwright |
+| [**CoreUFABC**](https://github.com/VitorTosti/CoreUFABC) | Plataforma de planejamento acadêmico — importação de histórico, métricas, simulação de matrícula | React, Vite, Tailwind, Supabase |
+| [**CAIJ_Info**](https://github.com/VitorTosti/CAIJ_Info) | Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas, integração com servidor | PowerShell, Windows Forms |
+| [**HeaderScanner**](https://github.com/VitorTosti/HeaderScanner) | CLI para análise de headers de segurança HTTP e classificação de postura de domínios | Go |
 
 > Mais projetos em [Projetos-Pessoais](https://github.com/VitorTosti/Projetos-Pessoais) — incluindo SaaS de gestão de importações, app mobile educacional e sites institucionais.
 
 ---
 
-## 📊 Estatísticas
+### Contato
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" height="160" />
-</p>
-
----
-
-## 📫 Contato
-
-**Aberto a oportunidades de estágio e vaga júnior em Tecnologia!**
+**Aberto a oportunidades de estágio e vaga júnior em Tecnologia.**
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vitortosti/">
