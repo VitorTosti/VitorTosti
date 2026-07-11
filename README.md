@@ -12,10 +12,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VitorTosti&color=0D1117&style=flat-square&label=views" />
-</p>
-
 ---
 
 <br>
@@ -87,16 +83,37 @@
 
 ---
 
-### Projetos em Destaque
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFFFFF&background=0D111700&center=true&vCenter=true&width=500&lines=Projetos+em+Destaque" alt="Projetos em Destaque" />
+</p>
 
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| [**fnc**](https://github.com/VitorTosti/fnc) | App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios, PWA | Next.js, TypeScript, Supabase, Playwright |
-| [**CoreUFABC**](https://github.com/VitorTosti/CoreUFABC) | Plataforma de planejamento acadêmico — importação de histórico, métricas, simulação de matrícula | React, Vite, Tailwind, Supabase |
-| [**CAIJ_Info**](https://github.com/VitorTosti/CAIJ_Info) | Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas, integração com servidor | PowerShell, Windows Forms |
-| [**HeaderScanner**](https://github.com/VitorTosti/HeaderScanner) | CLI para análise de headers de segurança HTTP e classificação de postura de domínios | Go |
+<br>
 
-> Mais projetos em [Projetos-Pessoais](https://github.com/VitorTosti/Projetos-Pessoais) — incluindo SaaS de gestão de importações, app mobile educacional e sites institucionais.
+<p align="center">
+  <a href="https://github.com/VitorTosti/fnc">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorTosti&repo=fnc&theme=react&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=58A6FF&text_color=8B949E" width="48%" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/VitorTosti/CoreUFABC">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorTosti&repo=CoreUFABC&theme=react&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=58A6FF&text_color=8B949E" width="48%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/VitorTosti/CAIJ_Info">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorTosti&repo=CAIJ_Info&theme=react&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=58A6FF&text_color=8B949E" width="48%" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/VitorTosti/HeaderScanner">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorTosti&repo=HeaderScanner&theme=react&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=58A6FF&text_color=8B949E" width="48%" />
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <em>Mais projetos em <a href="https://github.com/VitorTosti/Projetos-Pessoais">Projetos-Pessoais</a> — incluindo SaaS de gestão de importações, app mobile educacional e sites institucionais.</em>
+</p>
 
 ---
 
