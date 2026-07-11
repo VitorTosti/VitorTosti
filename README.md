@@ -17,21 +17,41 @@
 
 ---
 
-### Sobre mim
+<br>
 
-```yaml
-nome: Vitor Tosti
-localização: São Paulo, Brasil
-universidade: UFABC — Ciência e Tecnologia / Ciência da Computação
-foco: Desenvolvimento Full Stack, Automação & Segurança
-trabalhando_com:
-  - Aplicações Web (React, Next.js, TypeScript)
-  - Automação de processos (PowerShell, Python)
-  - Ferramentas de segurança (Go, análise de redes)
-buscando: Estágio / Vaga júnior em Tecnologia
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Sobre mim</h3>
+      <p>
+        Estudante de <strong>Ciência da Computação</strong> na <strong>UFABC</strong>, com experiência profissional em desenvolvimento de sistemas, automação industrial e diagnóstico técnico.
+      </p>
+      <p>
+        Construo aplicações full stack, automações de processos e ferramentas de segurança. Atualmente praticando análise de redes e segurança no TryHackMe.
+      </p>
+      <p>
+        <strong>Buscando:</strong> Estágio / Vaga júnior em Tecnologia
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Trabalhando com</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Aplicações_Web-React,_Next.js,_TypeScript-61DAFB?style=flat-square&logo=react&logoColor=white" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Automação-PowerShell,_Python-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Segurança-Go,_Wireshark,_Redes-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Infra-Linux,_Git,_Supabase-FCC624?style=flat-square&logo=linux&logoColor=black" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-Estudante de Ciência da Computação na UFABC, construindo aplicações full stack, automações e ferramentas de segurança. Experiência profissional em desenvolvimento de sistemas, automação industrial e diagnóstico técnico. Praticando labs de redes e segurança no TryHackMe.
+<br>
 
 ---
 
