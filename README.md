@@ -1,18 +1,19 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VitorTosti/VitorTosti/main/banner.png" alt="Banner" />
+  <img src="https://raw.githubusercontent.com/VitorTosti/VitorTosti/main/banner.svg" alt="Banner" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vitortosti/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://tryhackme.com/p/VitorTosti">
-    <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+    <img src="https://img.shields.io/badge/TRYHACKME-0D1117?style=for-the-badge&logo=tryhackme&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VitorTosti&color=0F2027&style=flat-square&label=Visualiza%C3%A7%C3%B5es" />
+  <img src="https://komarev.com/ghpvc/?username=VitorTosti&color=0D1117&style=flat-square&label=views" />
 </p>
 
 ---
@@ -105,9 +106,10 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vitortosti/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://tryhackme.com/p/VitorTosti">
-    <img src="https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white" />
+    <img src="https://img.shields.io/badge/TRYHACKME-0D1117?style=for-the-badge&logo=tryhackme&logoColor=white" />
   </a>
 </p>
