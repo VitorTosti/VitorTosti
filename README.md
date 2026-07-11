@@ -87,49 +87,33 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFFFFF&background=0D111700&center=true&vCenter=true&width=500&lines=Projetos+em+Destaque" alt="Projetos em Destaque" />
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/VitorTosti/fnc">fnc</a></h4>
-      <p>App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios e PWA</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/VitorTosti/CoreUFABC">CoreUFABC</a></h4>
-      <p>Plataforma de planejamento acadêmico — importação de histórico, métricas e simulação de matrícula</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/VitorTosti/CAIJ_Info">CAIJ_Info</a></h4>
-      <p>Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas e integração com servidor</p>
-      <p>
-        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-        <img src="https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/VitorTosti/HeaderScanner">HeaderScanner</a></h4>
-      <p>CLI para análise de headers de segurança HTTP e classificação de postura de domínios</p>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+#### [`fnc`](https://github.com/VitorTosti/fnc) — Finanças Pessoais
+App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios e PWA
 
-<br>
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+---
+
+#### [`CoreUFABC`](https://github.com/VitorTosti/CoreUFABC) — Planejamento Acadêmico
+Plataforma de planejamento acadêmico — importação de histórico, métricas e simulação de matrícula
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
+---
+
+#### [`CAIJ_Info`](https://github.com/VitorTosti/CAIJ_Info) — Diagnóstico Técnico
+Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas e integração com servidor
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![Windows](https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
+
+---
+
+#### [`HeaderScanner`](https://github.com/VitorTosti/HeaderScanner) — Análise de Segurança HTTP
+CLI para análise de headers de segurança HTTP e classificação de postura de domínios
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+---
 
 <p align="center">
   <em>Mais projetos em <a href="https://github.com/VitorTosti/Projetos-Pessoais">Projetos-Pessoais</a> — incluindo SaaS de gestão de importações, app mobile educacional e sites institucionais.</em>
