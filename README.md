@@ -1,107 +1,106 @@
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VitorTosti/VitorTosti/main/banner.svg" alt="Banner" />
+</p>
 
-![Header banner](https://raw.githubusercontent.com/VitorTosti/VitorTosti/main/banner.svg)
+<p align="center">
+  <a href="https://www.linkedin.com/in/vitortosti/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://tryhackme.com/p/VitorTosti">
+    <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+  </a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
-
-![Visualizações do perfil](https://komarev.com/ghpvc/?username=VitorTosti&color=0F2027&style=flat-square&label=Visualiza%C3%A7%C3%B5es)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VitorTosti&color=0F2027&style=flat-square&label=Visualiza%C3%A7%C3%B5es" />
+</p>
 
 ---
-
-</div>
 
 ## 🧑‍💻 Sobre mim
 
 ```yaml
 nome: Vitor Tosti
 localização: São Paulo, Brasil
-universidade: UFABC
-foco: Cibersegurança — Blue Team & Red Team
-estudando_atualmente:
-  - Segurança Ofensiva
-  - Análise de Redes
-  - Resposta a Incidentes
-buscando: Estágio / Vaga júnior em Cibersegurança
+universidade: UFABC — Ciência e Tecnologia / Ciência da Computação
+foco: Desenvolvimento Full Stack, Automação & Segurança
+trabalhando_com:
+  - Aplicações Web (React, Next.js, TypeScript)
+  - Automação de processos (PowerShell, Python)
+  - Ferramentas de segurança (Go, análise de redes)
+buscando: Estágio / Vaga júnior em Tecnologia
 ```
 
-- 🔭 Estudando **Cibersegurança** na **UFABC**
-- 🎯 Foco em **Blue Team** (SOC, SIEM, Análise de Logs) e **Red Team** (Pentest, Análise de Vulnerabilidades)
-- 🏆 Ativo no **TryHackMe** — praticando diariamente
-- 🐍 Construindo ferramentas de segurança com **Python**
-- 🔍 Buscando **estágio ou vaga júnior** em Cibersegurança
+- 🔭 Estudante de **Ciência da Computação** na **UFABC**
+- 💻 Construindo **aplicações full stack**, **automações** e **ferramentas de segurança**
+- 🏆 Praticando labs de redes e segurança no **TryHackMe**
+- ⚡ Experiência profissional em **desenvolvimento de sistemas**, **automação industrial** e **diagnóstico técnico**
+- 🔍 Buscando **estágio ou vaga júnior** em Tecnologia
 
 ---
 
-## 🛠️ Stack de Tecnologias
+## 🛠️ Stack
 
-<div align="center">
+**Linguagens**
 
-<img src="https://skillicons.dev/icons?i=python,linux,git,github,vscode,mysql&theme=dark" alt="Skill icons" />
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-<br/><br/>
+**Frameworks & Ferramentas**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Segurança & Redes**
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square&logo=nmap&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-
-</div>
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 
 ---
 
-## 🏆 TryHackMe
+## 🚀 Projetos em Destaque
 
-<div align="center">
+| Projeto | Descrição | Stack |
+|---------|-----------|-------|
+| 💰 **[fnc](https://github.com/VitorTosti/fnc)** | App full stack de finanças pessoais — dashboard, metas, investimentos, relatórios, PWA | Next.js, TypeScript, Supabase, Playwright |
+| 🎓 **[CoreUFABC](https://github.com/VitorTosti/CoreUFABC)** | Plataforma de planejamento acadêmico — importação de histórico, métricas, simulação de matrícula | React, Vite, Tailwind, Supabase |
+| 🔧 **[CAIJ_Info](https://github.com/VitorTosti/CAIJ_Info)** | Ferramenta de diagnóstico técnico de notebooks — coleta de hardware, etiquetas, integração com servidor | PowerShell, Windows Forms |
+| 🔍 **[HeaderScanner](https://github.com/VitorTosti/HeaderScanner)** | CLI para análise de headers de segurança HTTP e classificação de postura de domínios | Go |
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-VitorTosti-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
-
-🎯 **Aprendiz ativo** — Praticando segurança ofensiva e defensiva todos os dias
-
-</div>
-
----
-
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
+> Mais projetos em [Projetos-Pessoais](https://github.com/VitorTosti/Projetos-Pessoais) — incluindo SaaS de gestão de importações, app mobile educacional e sites institucionais.
 
 ---
 
-## 🔒 Projetos em Destaque
+## 📊 Estatísticas
 
-| Projeto | Descrição | Tecnologia |
-|---------|-----------|------------|
-| 🔍 **Port Scanner** | Scanner de portas de rede com detecção de serviços | Python |
-| 📊 **Log Analyzer** | Analisador de logs de segurança e gerador de alertas | Python |
-| 🔐 **Password Auditor** | Verificador de força de senhas e quebrador de hash | Python |
-| 📝 **CTF Writeups** | Resoluções de desafios do TryHackMe e CTFs | Markdown |
-
-> *Projetos em construção — montando meu kit de ferramentas de cibersegurança!*
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VitorTosti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorTosti&theme=tokyonight&hide_border=true" height="160" />
+</p>
 
 ---
 
-<div align="center">
+## 📫 Contato
 
-### 📫 Vamos nos conectar
+**Aberto a oportunidades de estágio e vaga júnior em Tecnologia!**
 
-**Aberto a oportunidades de estágio e vaga júnior em cibersegurança!**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/VitorTosti)
-
----
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Citação aleatória" />
-
-*"Quanto mais quieto você fica, mais você é capaz de ouvir."* — Kali Linux
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/vitortosti/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://tryhackme.com/p/VitorTosti">
+    <img src="https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white" />
+  </a>
+</p>
