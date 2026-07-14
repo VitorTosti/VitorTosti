@@ -6,10 +6,6 @@
   <a href="https://www.linkedin.com/in/vitortosti/">
     <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  &nbsp;
-  <a href="https://tryhackme.com/p/VitorTosti">
-    <img src="https://img.shields.io/badge/TRYHACKME-0D1117?style=for-the-badge&logo=tryhackme&logoColor=white" />
-  </a>
 </p>
 
 ---
