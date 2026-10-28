@@ -11,13 +11,27 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" alt="15 usuários em 4 perfis no InfoCAIJ · 8.207 movimentações conciliadas com o ERP · instalação de SO de 90 para 5 minutos · 130+ arquivos de teste" width="100%">
+  <img src="assets/stats-light.svg" alt="15 usuários em 4 perfis no InfoCAIJ · 8.207 movimentações conciliadas com o ERP · de 90 para 5 minutos por máquina com instalação automatizada · 93 de 135 máquinas pulavam uma etapa, achado pelo MCP nos dados reais" width="100%">
 </picture>
+
+## Destaque: a operação respondendo em português
+
+<a href="https://github.com/VitorTosti/infocaij-mcp"><img src="assets/mcp-demo.gif" alt="No Claude Desktop, a pergunta 'qual o tempo médio da venda registrada até a máquina ficar pronta' é respondida pela ferramenta Tempo entre etapas do InfoCAIJ MCP, com o aviso de que 93 de 135 máquinas pularam a etapa Pronta" width="100%"></a>
+
+Construí um servidor **MCP** que conecta o InfoCAIJ ao Claude. A gestão pergunta "onde a fila trava?" ou "quanto tempo da venda até a máquina ficar pronta?" e recebe a resposta calculada a partir do banco real, sem abrir telas nem montar planilhas. Ele só lê, nunca escreve, e nenhuma ferramenta devolve dados de clientes. [Ver o projeto →](https://github.com/VitorTosti/infocaij-mcp)
 
 ## Projetos
 
 <table>
   <tr>
+    <td width="50%">
+      <a href="https://github.com/VitorTosti/infocaij-mcp">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-mcp-dark.svg">
+          <img src="assets/card-mcp-light.svg" alt="InfoCAIJ MCP: o Claude consulta a operação real (fila, gargalos, vendas e dossiê de máquinas). 8 ferramentas, somente leitura." width="100%">
+        </picture>
+      </a>
+    </td>
     <td width="50%">
       <a href="https://github.com/VitorTosti/infocaij-case-study">
         <picture>
@@ -26,6 +40,8 @@
         </picture>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/VitorTosti/infomachine">
         <picture>
@@ -34,8 +50,6 @@
         </picture>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/VitorTosti/CoreUFABC">
         <picture>
@@ -44,14 +58,17 @@
         </picture>
       </a>
     </td>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/card-fichas-dark.svg">
-        <img src="assets/card-fichas-light.svg" alt="Em construção: extração estruturada de fichas técnicas com LLM, com taxa de acerto medida." width="100%">
-      </picture>
-    </td>
   </tr>
 </table>
+
+## Como avalio o que construo com IA
+
+Construo com Claude Code, Codex e n8n. O que separa uma demo de algo que se coloca em produção é testar com o modelo e com dados reais, achar onde falha e corrigir com um teste que impede a volta. Dois exemplos do InfoCAIJ MCP:
+
+| | O que aconteceu | O que mudei |
+|:--|:--|:--|
+| **Teste com o modelo** | Numa sessão real, o Claude respondeu certo, mas avisou que não sabia se as devoluções eram contadas pela data da venda ou da devolução. | A descrição da ferramenta passou a dizer qual data define o período. A dúvida sumiu na resposta seguinte. |
+| **Teste com dados reais** | No banco real, o gargalo apontado tinha mediana de 0,8 h. O problema verdadeiro era outra etapa, em que a maioria passava rápido, mas 10% esperavam mais de 3 dias. | O gargalo passou a ser a etapa com mais horas somadas. Um teste reproduz a cauda longa. |
 
 ## Por dentro do InfoMachine
 
@@ -72,6 +89,9 @@
 
 ```mermaid
 flowchart LR
+    G(["Gestão"]) -- "pergunta em português" --> CL["Claude"]
+    CL -- "MCP · somente leitura" --> MCP["InfoCAIJ MCP<br/>8 ferramentas"]
+    MCP --> VPS
     T(["Técnico na bancada"]) --> IM["InfoMachine<br/>app no pendrive"]
     V(["Vendedores · estoque · gestão"]) --> IC["InfoCAIJ<br/>plataforma web"]
     IM -- "serial e rastreador" --> ERP[("ERP<br/>AlterTag/VHSYS")]
@@ -83,6 +103,19 @@ flowchart LR
 ```
 
 ## Decisões técnicas
+
+<details>
+<summary><b>InfoCAIJ MCP</b> · ferramentas de negócio, não SQL livre</summary>
+<br>
+
+- **Somente leitura em duas camadas.** O banco é aberto em modo leitura pelo driver e a conexão recusa escrita; um teste confere que o arquivo não muda.
+- **Nenhum dado de cliente.** Nenhuma consulta seleciona nome, e-mail ou telefone; um teste planta dados falsos e prova que nada vaza.
+- **Cada ferramenta responde a uma pergunta da operação**, com argumentos validados. Um "execute este SQL" seria mais flexível e deixaria o modelo ler qualquer tabela.
+- **O tempo por etapa não existe no banco.** O servidor reconstrói a linha do tempo de cada máquina a partir do histórico de mudanças de status.
+- **Zero dependências.** O protocolo está implementado direto, em TypeScript que o Node roda sem build.
+
+[Repositório →](https://github.com/VitorTosti/infocaij-mcp)
+</details>
 
 <details>
 <summary><b>InfoCAIJ</b> · da mensagem no WhatsApp para uma fila com 8 etapas</summary>
@@ -120,23 +153,12 @@ flowchart LR
 [Repositório →](https://github.com/VitorTosti/CoreUFABC)
 </details>
 
-<details>
-<summary><b>Como trabalho</b></summary>
-<br>
-
-1. Levanto o problema com quem vai usar: regras, exceções e o que conta como pronto.
-2. Implemento com assistentes de código, como o Codex, revisando cada mudança.
-3. Escrevo testes para o comportamento que importa antes de publicar.
-4. Valido no uso real e itero a partir do que acontece na operação.
-</details>
-
 ## Em construção
 
-| Projeto | Objetivo |
-|:--|:--|
-| **Extração estruturada de fichas técnicas** | Descrições livres de hardware em campos padronizados, com validação de esquema e taxa de acerto medida |
-| **Laboratório de avaliação de prompts** | Prompts e modelos comparados na mesma tarefa, com dataset fixo e análise de erros |
-| **Assistente com respostas fundamentadas** | Respostas a partir de documentos técnicos, com fonte citada e recusa sem evidência |
+| Projeto | Problema de negócio | Como |
+|:--|:--|:--|
+| **Agente de status** | Vendedores ainda perguntam à bancada se a máquina do pedido está pronta | Agente em n8n que reusa as ferramentas do InfoCAIJ MCP e responde ao vendedor; medido por perguntas resolvidas sem intervenção humana |
+| **Fichas técnicas** | Planilhas de lote chegam com descrições de hardware fora de padrão | Extração estruturada com LLM, validação de esquema e taxa de acerto medida em um conjunto rotulado |
 
 ## Ferramentas
 

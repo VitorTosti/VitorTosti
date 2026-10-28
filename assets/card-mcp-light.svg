@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300" role="img" aria-label="InfoCAIJ MCP">
+  <rect x="1" y="1" width="618" height="298" rx="18" fill="#FFFFFF" stroke="#E6DED1" stroke-width="2"/>
+  <path d="M 619 30 H 580 L 556 54 H 520" fill="none" stroke="#B5601C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="520" cy="54" r="5" fill="#FFFFFF" stroke="#B5601C" stroke-width="2"/>
+  <text x="32" y="46" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="1.5" fill="#B5601C">IA EM USO · MCP</text>
+  <text x="32" y="94" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.8" fill="#1D2129">InfoCAIJ MCP</text>
+  <text x="32" y="132" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#5E6675">O Claude consulta a operação real: fila,</text><text x="32" y="156" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#5E6675">gargalos, vendas e dossiê de máquinas.</text>
+  <line x1="32" y1="196" x2="588" y2="196" stroke="#E6DED1"/>
+  <text x="32" y="252" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#B5601C">8</text>
+  <text x="32" y="276" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#5E6675">ferramentas · somente leitura</text>
+  <rect x="409.20000000000005" y="236" width="41" height="28" rx="14" fill="#F3EEE6" stroke="#E6DED1"/><text x="430" y="255" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#5E6675">MCP</text><rect x="457.80000000000007" y="236" width="65" height="28" rx="14" fill="#F3EEE6" stroke="#E6DED1"/><text x="490" y="255" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#5E6675">Claude</text><rect x="531.0" y="236" width="57" height="28" rx="14" fill="#F3EEE6" stroke="#E6DED1"/><text x="560" y="255" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#5E6675">Evals</text>
+</svg>
