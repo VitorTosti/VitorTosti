@@ -1,142 +1,145 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Vitor Tosti" width="100%">
+</picture>
 
-# Vitor Tosti
+<p align="center">
+  <a href="https://www.linkedin.com/in/vitortosti/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-vitortosti-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <img alt="UFABC" src="https://img.shields.io/badge/Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-UFABC-1D2129?style=flat-square">
+  <img alt="São Bernardo do Campo" src="https://img.shields.io/badge/S%C3%A3o%20Bernardo%20do%20Campo-SP-1D2129?style=flat-square">
+</p>
 
-### Software para problemas reais. Uma trajetória voltada à IA generativa.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" alt="15 usuários em 4 perfis no InfoCAIJ · 8.207 movimentações conciliadas com o ERP · instalação de SO de 90 para 5 minutos · 130+ arquivos de teste" width="100%">
+</picture>
 
-Estudante de **Ciência da Computação na UFABC**  
-Desenvolvimento de sistemas · Automação de processos · Foco em LLMs
+## Projetos
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vitor%20Tosti-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitortosti/)
-[![Projetos](https://img.shields.io/badge/GitHub-Explore%20os%20projetos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VitorTosti?tab=repositories)
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/VitorTosti/infocaij-case-study">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-infocaij-dark.svg">
+          <img src="assets/card-infocaij-light.svg" alt="InfoCAIJ: venda, bancada, estoque, nota fiscal e garantia em uma fila rastreável, integrada ao ERP. Cerca de 300 máquinas e pedidos por mês." width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/VitorTosti/infomachine">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-infomachine-dark.svg">
+          <img src="assets/card-infomachine-light.svg" alt="InfoMachine: triagem de notebooks com leitura de hardware, 5 testes, histórico por serial e etiqueta. Cerca de 100 máquinas por semana." width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/VitorTosti/CoreUFABC">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-coreufabc-dark.svg">
+          <img src="assets/card-coreufabc-light.svg" alt="CoreUFABC: histórico do SIGAA vira métricas, progresso por eixo e simulação de grade. 66 testes automatizados." width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/card-fichas-dark.svg">
+        <img src="assets/card-fichas-light.svg" alt="Em construção: extração estruturada de fichas técnicas com LLM, com taxa de acerto medida." width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
-[Sobre mim](#sobre-mim) · [Projetos](#projetos-em-destaque) · [IA e LLMs](#meu-foco-em-ia-generativa) · [Tecnologias](#tecnologias) · [Contato](#vamos-conversar)
+## Por dentro do InfoMachine
 
-</div>
+<table>
+  <tr>
+    <td width="33%"><img src="assets/painel.png" alt="Painel do atendimento com leitura, rastreador, testes e etapas"></td>
+    <td width="33%"><img src="assets/testes.png" alt="Central com cinco testes de hardware"></td>
+    <td width="33%"><img src="assets/etiqueta.png" alt="Prévia da etiqueta térmica de 80 × 50 mm"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Andamento do atendimento</sub></td>
+    <td align="center"><sub>Testes de hardware</sub></td>
+    <td align="center"><sub>Etiqueta antes da impressão</sub></td>
+  </tr>
+</table>
 
----
+## Como os sistemas se conectam
 
-## Sobre mim
+```mermaid
+flowchart LR
+    T(["Técnico na bancada"]) --> IM["InfoMachine<br/>app no pendrive"]
+    V(["Vendedores · estoque · gestão"]) --> IC["InfoCAIJ<br/>plataforma web"]
+    IM -- "serial e rastreador" --> ERP[("ERP<br/>AlterTag/VHSYS")]
+    IC <-- "OS · pedidos · NF · estoque" --> ERP
+    IM -- "ficha técnica" --> IC
+    IM -- "impressão" --> NAS["Serviço no NAS"]
+    NAS --> ET[/"Etiqueta com QR Code"/]
+    IC --> VPS[("VPS<br/>banco + backup")]
+```
 
-Sou estudante de Ciência da Computação na Universidade Federal do ABC e desenvolvo aplicações, automações e ferramentas para apoiar atividades do dia a dia. Minha experiência envolve desenvolvimento full stack, diagnóstico técnico e integração de ferramentas com processos operacionais.
+## Decisões técnicas
 
-Gosto de acompanhar um problema desde sua origem: entender a rotina de quem vai usar a solução, organizar os requisitos, implementar funcionalidades e melhorar o sistema a partir do uso. Tenho interesse especial em transformar tarefas repetitivas e informações dispersas em ferramentas úteis.
+<details>
+<summary><b>InfoCAIJ</b> · da mensagem no WhatsApp para uma fila com 8 etapas</summary>
+<br>
 
-**Estou direcionando minha trajetória para IA generativa e engenharia de LLMs.** Quero unir minha base em desenvolvimento de software à construção de aplicações com modelos de linguagem, experimentos reproduzíveis e avaliação de resultados.
+- **Quantidade vira unidade na entrada.** "4 notebooks" viram quatro itens, cada um com serial, OS, técnico e histórico próprios.
+- **Estado técnico separado do comercial.** Uma máquina pode estar entregue na bancada e devolvida no comercial sem regras contraditórias, e o histórico sobrevive à revenda.
+- **Respostas antigas do ERP são descartadas.** A consulta da OS dispara 400 ms após a digitação, e uma resposta atrasada não sobrescreve a atual.
+- **Conciliação sem palpite.** 8.207 movimentações de estoque comparadas por serial; casos ambíguos vão para revisão manual.
+- **Migração com caminho de volta.** Do computador local para uma VPS, com hash do banco, ambiente de teste e plano de retorno.
 
-Busco uma oportunidade de **estágio em IA generativa**, na qual possa contribuir com implementação, aprender com uma equipe e aprofundar minha experiência com modelos, dados e pipelines.
+[Estudo de caso completo →](https://github.com/VitorTosti/infocaij-case-study)
+</details>
 
-## O que trago para essa trajetória
+<details>
+<summary><b>InfoMachine</b> · leitura automática como sugestão, não como verdade</summary>
+<br>
 
-| Experiência | Como se conecta ao meu foco em IA |
-| :--- | :--- |
-| **Desenvolvimento de aplicações** | Base para integrar modelos a interfaces, APIs e fluxos de trabalho. |
-| **Automação de processos** | Entendimento de tarefas repetitivas e oportunidades de reduzir trabalho manual. |
-| **Diagnóstico técnico** | Investigação de problemas, coleta de informações e atenção ao comportamento real das ferramentas. |
-| **Integração entre sistemas** | Base para conectar aplicações, serviços e fontes de dados em uma solução. |
+- **Todo campo lido pode ser corrigido.** BIOS e Windows erram tipo de disco e memória; o técnico confirma antes de imprimir.
+- **A decisão ambígua fica com quem está com a máquina.** Mais de um rastreador para a mesma serial vira uma escolha, não um palpite.
+- **Atualização verificável.** Pacotes no NAS com SHA-256 e backup antes da troca, para que todos os pendrives rodem a mesma versão.
+- **Diagnóstico por camada.** A falha de impressão é separada entre NAS, publicação do QR e impressora.
 
-## Projetos em destaque
+[Repositório →](https://github.com/VitorTosti/infomachine)
+</details>
 
-### 🛠️ [CAIJ_Info — Diagnóstico técnico de notebooks](https://github.com/VitorTosti/CAIJ_Info)
+<details>
+<summary><b>CoreUFABC</b> · regras acadêmicas com fonte e teste</summary>
+<br>
 
-Ferramenta voltada à coleta de informações de hardware e ao apoio ao diagnóstico técnico de notebooks, com geração de etiquetas e integração com servidor.
+- **Parser tolerante ao PDF.** Junta linhas quebradas do histórico do SIGAA e normaliza para um schema JSON.
+- **Métricas com fonte normativa.** CR, CA e CPk seguem o Guia da Graduação; a métrica própria é marcada como tal.
+- **Privacidade no relato de erro.** O relato anônimo mantém só a estrutura da linha, sem nome, RA ou conceitos.
 
-**Contexto:** reunir informações técnicas de equipamentos e apoiar etapas de uma rotina operacional.
+[Repositório →](https://github.com/VitorTosti/CoreUFABC)
+</details>
 
-**O que o projeto reúne:**
+<details>
+<summary><b>Como trabalho</b></summary>
+<br>
 
-- Coleta de dados de hardware por meio de scripts.
-- Interface em Windows Forms para apoiar a operação.
-- Recursos de etiquetas e comunicação com servidor.
+1. Levanto o problema com quem vai usar: regras, exceções e o que conta como pronto.
+2. Implemento com assistentes de código, como o Codex, revisando cada mudança.
+3. Escrevo testes para o comportamento que importa antes de publicar.
+4. Valido no uso real e itero a partir do que acontece na operação.
+</details>
 
-**Por que está no meu portfólio:** representa minha experiência em conectar software a uma necessidade prática, envolvendo scripts, interface e integração em um mesmo fluxo.
+## Em construção
 
-`PowerShell` `Windows Forms` `Automação` `Diagnóstico de hardware`
+| Projeto | Objetivo |
+|:--|:--|
+| **Extração estruturada de fichas técnicas** | Descrições livres de hardware em campos padronizados, com validação de esquema e taxa de acerto medida |
+| **Laboratório de avaliação de prompts** | Prompts e modelos comparados na mesma tarefa, com dataset fixo e análise de erros |
+| **Assistente com respostas fundamentadas** | Respostas a partir de documentos técnicos, com fonte citada e recusa sem evidência |
 
-### 🎓 [CoreUFABC — Planejamento acadêmico](https://github.com/VitorTosti/CoreUFABC)
+## Ferramentas
 
-Plataforma de planejamento acadêmico com importação de histórico, métricas e simulação de matrícula.
-
-**Contexto:** organizar informações acadêmicas para apoiar o planejamento das próximas etapas da graduação.
-
-**O que o projeto reúne:**
-
-- Importação de histórico acadêmico.
-- Apresentação de métricas para acompanhamento.
-- Simulação de matrícula para explorar possibilidades de planejamento.
-
-**Por que está no meu portfólio:** demonstra a transformação de informações e regras de um domínio em funcionalidades que ajudam o usuário a tomar decisões.
-
-`React` `Vite` `Tailwind CSS` `Supabase`
-
-### 📂 [Projetos pessoais — Outras implementações](https://github.com/VitorTosti/Projetos-Pessoais)
-
-Repositório que reúne outros trabalhos da minha trajetória, incluindo projetos de aplicações, ferramentas e sites.
-
-É um espaço complementar aos projetos em destaque, para explorar outras implementações e interesses em desenvolvimento de software.
-
-## Meu foco em IA generativa
-
-Minha experiência apresentada acima está concentrada em software e automação. A próxima etapa da minha trajetória é aplicar essa base a sistemas com LLMs, produzindo implementações e evidências públicas de aprendizado.
-
-### Áreas que quero aprofundar
-
-| Área | Questões que quero explorar em projetos |
-| :--- | :--- |
-| **Prompts estruturados** | Como explicitar contexto, tarefa, restrições e formato de saída? Como medir o efeito de uma mudança no prompt? |
-| **Avaliação de LLMs** | Como comparar qualidade, consistência, latência e custo usando os mesmos exemplos? |
-| **RAG e recuperação de informação** | Como recuperar contexto relevante e produzir respostas sustentadas por fontes? |
-| **Pipelines e integração** | Como preparar dados, chamar modelos, validar saídas e tratar falhas? |
-| **Adaptação de modelos** | Quando prompts e recuperação são suficientes? Quando faz sentido experimentar fine-tuning? |
-| **Operação e manutenção** | Como acompanhar erros, mudanças de comportamento e regressões ao longo do tempo? |
-
-### Projetos que pretendo desenvolver
-
-Os itens abaixo representam minha direção de desenvolvimento; ainda não são entregas publicadas.
-
-**01 · Laboratório de prompts e avaliação de LLMs**  
-Comparação de estratégias de prompting em uma tarefa delimitada, usando um conjunto fixo de exemplos e critérios explícitos de avaliação. A proposta é registrar versões dos prompts, resultados, erros e os compromissos entre qualidade, latência e custo.
-
-**02 · Assistente com respostas fundamentadas em documentos**  
-Aplicação com recuperação de informações, referências às fontes e tratamento de perguntas sem evidência suficiente. A proposta é avaliar tanto a recuperação dos documentos quanto a qualidade das respostas.
-
-**03 · Extração estruturada de informações técnicas**  
-Pipeline para transformar descrições de equipamentos em campos padronizados, usando dados públicos ou sintéticos, validação de formato e análise dos casos em que o modelo falha.
-
-## Como quero documentar meus experimentos
-
-Para que os próximos projetos possam ser compreendidos e reproduzidos, pretendo documentar:
-
-- **Problema e escopo:** tarefa, público e limites da solução.
-- **Dados:** origem, preparação e exemplos utilizados na avaliação.
-- **Implementação:** arquitetura, configuração e instruções de execução.
-- **Experimentos:** modelos, prompts, parâmetros e critérios de comparação.
-- **Resultados:** métricas observadas, exemplos de acertos e análise de erros.
-- **Limitações:** situações em que a solução falha e melhorias a investigar.
-
-## Tecnologias
-
-Tecnologias presentes no meu percurso de desenvolvimento e nos projetos apresentados no perfil:
-
-| Categoria | Tecnologias |
-| :--- | :--- |
-| **Linguagens** | TypeScript, JavaScript, Python e PowerShell |
-| **Interfaces** | React, Next.js e Tailwind CSS |
-| **Backend e dados** | Node.js, Supabase e PostgreSQL |
-| **Ferramentas e ambiente** | Git, Linux e Windows |
-
-Minha prioridade é demonstrar o uso dessas ferramentas por meio de implementações documentadas, com contexto e decisões técnicas acessíveis a quem visita os projetos.
-
-## Vamos conversar
-
-Tenho interesse em oportunidades de **estágio em IA generativa**, especialmente envolvendo aplicações com LLMs, avaliação e automação de processos.
-
-Quero contribuir com minha experiência em desenvolvimento e ampliar minha capacidade de construir, avaliar e manter soluções com IA.
-
-**[Entre em contato pelo LinkedIn →](https://www.linkedin.com/in/vitortosti/)**
-
----
-
-<div align="center">
-  <sub>Vitor Tosti · Ciência da Computação na UFABC · Desenvolvimento de software e IA generativa</sub>
-</div>
+<p>
+  <img alt="TypeScript, JavaScript, Python, React, Node.js, Express, Tailwind CSS, PostgreSQL, SQLite, Supabase, PowerShell, Linux, Git, GitHub Actions, Cloudflare" src="https://skillicons.dev/icons?i=ts,js,py,react,nodejs,express,tailwind,postgres,sqlite,supabase,powershell,linux,git,githubactions,cloudflare&perline=16">
+</p>
