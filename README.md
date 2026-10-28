@@ -4,9 +4,9 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vitortosti/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-vitortosti-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <img alt="UFABC" src="https://img.shields.io/badge/Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-UFABC-1D2129?style=flat-square">
-  <img alt="São Bernardo do Campo" src="https://img.shields.io/badge/S%C3%A3o%20Bernardo%20do%20Campo-SP-1D2129?style=flat-square">
+  <a href="https://www.linkedin.com/in/vitortosti/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" alt="LinkedIn: vitortosti" height="48"></picture></a>
+  <a href="https://www.ufabc.edu.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-ufabc-dark.svg"><img src="assets/btn-ufabc-light.svg" alt="UFABC: Ciência da Computação" height="48"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-local-dark.svg"><img src="assets/btn-local-light.svg" alt="Base: São Bernardo do Campo, SP" height="48"></picture>
 </p>
 
 <picture>
@@ -18,7 +18,11 @@
 
 <a href="https://github.com/VitorTosti/infocaij-mcp"><img src="assets/mcp-demo.gif" alt="No Claude Desktop, a pergunta 'qual o tempo médio da venda registrada até a máquina ficar pronta' é respondida pela ferramenta Tempo entre etapas do InfoCAIJ MCP, com o aviso de que 93 de 135 máquinas pularam a etapa Pronta" width="100%"></a>
 
-Construí um servidor **MCP** que conecta o InfoCAIJ ao Claude. A gestão pergunta "onde a fila trava?" ou "quanto tempo da venda até a máquina ficar pronta?" e recebe a resposta calculada a partir do banco real, sem abrir telas nem montar planilhas. Ele só lê, nunca escreve, e nenhuma ferramenta devolve dados de clientes. [Ver o projeto →](https://github.com/VitorTosti/infocaij-mcp)
+Construí um servidor **MCP** que conecta o InfoCAIJ ao Claude. A gestão pergunta "onde a fila trava?" ou "quanto tempo da venda até a máquina ficar pronta?" e recebe a resposta calculada a partir do banco real, sem abrir telas nem montar planilhas. Ele só lê, nunca escreve, e nenhuma ferramenta devolve dados de clientes.
+
+<p align="center">
+  <a href="https://github.com/VitorTosti/infocaij-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-projeto-dark.svg"><img src="assets/btn-projeto-light.svg" alt="Ver o InfoCAIJ MCP" height="48"></picture></a>
+</p>
 
 ## Projetos
 

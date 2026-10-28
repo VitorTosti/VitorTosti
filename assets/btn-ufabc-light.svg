@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="305" height="48" viewBox="0 0 305 48" role="img" aria-label="Ufabc: Ciência da Computação">
+  <rect x="1" y="1" width="303" height="46" rx="12" fill="#FFFFFF" stroke="#E2D9CB" stroke-width="1.5"/>
+  <g transform="translate(18 14)"><path d="M10 3 L19 7.5 L10 12 L1 7.5 Z" fill="none" stroke="#B5601C" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 9.6 V14 Q10 17.5 15 14 V9.6" fill="none" stroke="#B5601C" stroke-width="1.8" stroke-linejoin="round"/><line x1="19" y1="7.5" x2="19" y2="13" stroke="#B5601C" stroke-width="1.8" stroke-linecap="round"/></g>
+  <text x="50" y="28.5" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" letter-spacing="1.6" fill="#B5601C">UFABC</text>
+  <line x1="100" y1="15" x2="100" y2="33" stroke="#E2D9CB" stroke-width="1.5"/>
+  <text x="112" y="29.5" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1D2129">Ciência da Computação</text>
+</svg>

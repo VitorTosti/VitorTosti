@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="48" viewBox="0 0 323 48" role="img" aria-label="Projeto: Ver o InfoCAIJ MCP">
+  <rect x="1" y="1" width="321" height="46" rx="12" fill="#2A1C10" stroke="#E08A3C" stroke-width="1.5"/>
+  <g transform="translate(18 14)"><path d="M1 10 H7 L10 6 H19" fill="none" stroke="#E08A3C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="10" r="2.4" fill="none" stroke="#E08A3C" stroke-width="1.8"/><path d="M10 14 H19" fill="none" stroke="#E08A3C" stroke-width="1.8" stroke-linecap="round"/></g>
+  <text x="50" y="28.5" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" letter-spacing="1.6" fill="#E08A3C">PROJETO</text>
+  <line x1="117" y1="15" x2="117" y2="33" stroke="#2A3342" stroke-width="1.5"/>
+  <text x="129" y="29.5" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#E08A3C">Ver o InfoCAIJ MCP  →</text>
+</svg>
